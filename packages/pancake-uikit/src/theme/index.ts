@@ -9,6 +9,8 @@ import { ToggleTheme } from "../components/Toggle/types";
 import { TooltipTheme } from "../components/Tooltip/types";
 import { NavThemeType } from "../widgets/Menu/theme";
 import { ModalTheme } from "../widgets/Modal/types";
+import { BottomNavTheme } from "../components/BottomNav/theme";
+import { BottomNavItemTheme } from "../components/BottomNavItem/theme";
 import { Colors, Breakpoints, MediaQueries, Spacing, Shadows, Radii, ZIndices } from "./types";
 
 export interface PancakeTheme {
@@ -21,6 +23,8 @@ export interface PancakeTheme {
   menuItem: MenuItemTheme;
   subMenuItems: SubMenuItemsTheme;
   dropdownMenuItem: DropdownMenuItemTheme;
+  bottomNavItem: BottomNavItemTheme;
+  bottomNav: BottomNavTheme;
   modal: ModalTheme;
   pancakeToggle: PancakeToggleTheme;
   radio: RadioTheme;
