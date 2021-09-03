@@ -1,16 +1,11 @@
 import { AlertTheme } from "../components/Alert/types";
 import { CardTheme } from "../components/Card/types";
-import { MenuItemTheme } from "../components/MenuItem/theme";
-import { SubMenuItemsTheme } from "../components/SubMenuItems/types";
-import { DropdownMenuItemTheme } from "../components/DropdownMenu/theme";
 import { PancakeToggleTheme } from "../components/PancakeToggle/types";
 import { RadioTheme } from "../components/Radio/types";
 import { ToggleTheme } from "../components/Toggle/types";
 import { TooltipTheme } from "../components/Tooltip/types";
 import { NavThemeType } from "../widgets/Menu/theme";
 import { ModalTheme } from "../widgets/Modal/types";
-import { BottomNavTheme } from "../components/BottomNav/theme";
-import { BottomNavItemTheme } from "../components/BottomNavItem/theme";
 import { Colors, Breakpoints, MediaQueries, Spacing, Shadows, Radii, ZIndices } from "./types";
 
 export interface PancakeTheme {
@@ -20,11 +15,6 @@ export interface PancakeTheme {
   colors: Colors;
   card: CardTheme;
   nav: NavThemeType;
-  menuItem: MenuItemTheme;
-  subMenuItems: SubMenuItemsTheme;
-  dropdownMenuItem: DropdownMenuItemTheme;
-  bottomNavItem: BottomNavItemTheme;
-  bottomNav: BottomNavTheme;
   modal: ModalTheme;
   pancakeToggle: PancakeToggleTheme;
   radio: RadioTheme;

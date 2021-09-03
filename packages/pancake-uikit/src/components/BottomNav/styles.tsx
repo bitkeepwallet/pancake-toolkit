@@ -4,7 +4,7 @@ import { Flex } from "../Box";
 const StyledBottomNavItem = styled(Flex)`
   width: 100%;
   padding: 5px 8px;
-  background: ${({ theme }) => theme.bottomNav.backgroundColor};
+  background: ${({ theme }) => theme.colors.backgroundAlt};
 `;
 
 export default StyledBottomNavItem;
