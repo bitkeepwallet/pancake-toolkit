@@ -1,4 +1,3 @@
-import React from "react";
 import { noop } from "lodash";
 import { DropdownMenuItems, DropdownMenuItemType } from "../../components/DropdownMenu/types";
 import { MenuItemsType } from "../../components/MenuItems/types";

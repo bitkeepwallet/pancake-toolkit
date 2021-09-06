@@ -830,7 +830,6 @@ exports[`renders correctly 1`] = `
               <a
                 class="c7"
                 href="/"
-                variant="default"
               >
                 Trade
               </a>
@@ -866,7 +865,6 @@ exports[`renders correctly 1`] = `
               <a
                 class="c12"
                 href="/"
-                variant="default"
               >
                 Earn
               </a>
@@ -910,7 +908,6 @@ exports[`renders correctly 1`] = `
               <a
                 class="c12"
                 href="/"
-                variant="default"
               >
                 Win
               </a>
@@ -954,8 +951,6 @@ exports[`renders correctly 1`] = `
               <a
                 class="c13"
                 href="/"
-                statuscolor="warning"
-                variant="default"
               >
                 ...
               </a>
@@ -1207,7 +1202,6 @@ exports[`renders correctly 1`] = `
         <a
           class="c26"
           href="/"
-          variant="subMenu"
         >
           Exchange
         </a>
@@ -1218,7 +1212,6 @@ exports[`renders correctly 1`] = `
         <a
           class="c27"
           href="/"
-          variant="subMenu"
         >
           Liquidity
         </a>
