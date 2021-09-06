@@ -111,17 +111,17 @@ exports[`renders correctly 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  fill: #7A6EAA;
+  fill: #7645D9;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
-.c38 {
+.c42 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  fill: #7645D9;
+  fill: #7A6EAA;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -159,13 +159,45 @@ exports[`renders correctly 1`] = `
   transition: height 0.25s ease;
 }
 
-.c42 {
+.c35 div:last-child {
+  height: 19px;
+}
+
+.c41 {
   position: relative;
   height: 19px;
   width: 20px;
 }
 
-.c42 div:first-child {
+.c41 div:first-child {
+  height: 19px;
+  width: 20px;
+  z-index: 0;
+}
+
+.c41 div,
+.c41 svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.c41 div:last-child {
+  width: 20px;
+  height: 0;
+  z-index: 5;
+  -webkit-transition: height 0.25s ease;
+  transition: height 0.25s ease;
+}
+
+.c44 {
+  position: relative;
+  height: 19px;
+  width: 20px;
+}
+
+.c44 div:first-child {
   height: 19px;
   width: 20px;
   z-index: 0;
@@ -186,7 +218,16 @@ exports[`renders correctly 1`] = `
   line-height: 1.5;
 }
 
-.c39 {
+.c38 {
+  color: #280D5F;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.c43 {
   color: #7A6EAA;
   font-size: 10px;
   font-weight: 400;
@@ -213,7 +254,7 @@ exports[`renders correctly 1`] = `
   background: #EFF4F5;
 }
 
-.c40 {
+.c39 {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -341,7 +382,7 @@ exports[`renders correctly 1`] = `
   border-radius: 0 0 8px 8px;
 }
 
-.c41 {
+.c40 {
   background-color: #FFFFFF;
   border: 1px solid #E7E3EB;
   border-radius: 16px;
@@ -355,11 +396,11 @@ exports[`renders correctly 1`] = `
   visibility: hidden;
 }
 
-.c41 .c9:first-child {
+.c40 .c9:first-child {
   border-radius: 8px 8px 0 0;
 }
 
-.c41 .c9:last-child {
+.c40 .c9:last-child {
   border-radius: 0 0 8px 8px;
 }
 
@@ -1256,7 +1297,7 @@ exports[`renders correctly 1`] = `
                   >
                     <svg
                       class="c37"
-                      color="textSubtle"
+                      color="secondary"
                       height="19px"
                       viewBox="0 0 24 24"
                       width="20px"
@@ -1279,7 +1320,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c38"
+                      class="c37"
                       color="secondary"
                       height="19px"
                       viewBox="0 0 20 20"
@@ -1296,10 +1337,10 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c39 c40"
-                  color="textSubtle"
+                  class="c38 c39"
+                  color="text"
                   font-size="10px"
-                  font-weight="400"
+                  font-weight="600"
                 >
                   Trade
                 </div>
@@ -1308,7 +1349,7 @@ exports[`renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c41"
+          class="c40"
           style="position: absolute; left: 0px; top: 0px;"
         >
           <div>
@@ -1347,7 +1388,7 @@ exports[`renders correctly 1`] = `
                 height="100%"
               >
                 <div
-                  class="c35"
+                  class="c41"
                   height="19px"
                   width="20px"
                 >
@@ -1355,7 +1396,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c37"
+                      class="c42"
                       color="textSubtle"
                       height="19px"
                       viewBox="0 0 24 24"
@@ -1385,7 +1426,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c38"
+                      class="c37"
                       color="secondary"
                       height="19px"
                       viewBox="0 0 22 20"
@@ -1404,7 +1445,7 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c39 c40"
+                  class="c43 c39"
                   color="textSubtle"
                   font-size="10px"
                   font-weight="400"
@@ -1416,7 +1457,7 @@ exports[`renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c41"
+          class="c40"
           style="position: absolute; left: 0px; top: 0px;"
         >
           <div>
@@ -1463,7 +1504,7 @@ exports[`renders correctly 1`] = `
                 height="100%"
               >
                 <div
-                  class="c35"
+                  class="c41"
                   height="19px"
                   width="20px"
                 >
@@ -1471,7 +1512,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c37"
+                      class="c42"
                       color="textSubtle"
                       height="19px"
                       viewBox="0 0 18 18"
@@ -1487,7 +1528,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c38"
+                      class="c37"
                       color="secondary"
                       height="19px"
                       viewBox="0 0 19 19"
@@ -1503,7 +1544,7 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c39 c40"
+                  class="c43 c39"
                   color="textSubtle"
                   font-size="10px"
                   font-weight="400"
@@ -1515,7 +1556,7 @@ exports[`renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c41"
+          class="c40"
           style="position: absolute; left: 0px; top: 0px;"
         >
           <div>
@@ -1562,7 +1603,7 @@ exports[`renders correctly 1`] = `
                 height="100%"
               >
                 <div
-                  class="c42"
+                  class="c44"
                   height="19px"
                   width="20px"
                 >
@@ -1570,7 +1611,7 @@ exports[`renders correctly 1`] = `
                     class="c36"
                   >
                     <svg
-                      class="c37"
+                      class="c42"
                       color="textSubtle"
                       height="19px"
                       viewBox="0 0 24 24"
@@ -1584,7 +1625,7 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c39 c40"
+                  class="c43 c39"
                   color="textSubtle"
                   font-size="10px"
                   font-weight="400"
@@ -1596,7 +1637,7 @@ exports[`renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c41"
+          class="c40"
           style="position: absolute; left: 0px; top: 0px;"
         >
           <div>
